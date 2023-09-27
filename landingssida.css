@@ -32,6 +32,7 @@ header {
 a {
     font-size: 18px;
     text-decoration: none;
+    color: #030303;
 }
 
 .navbar {
@@ -40,7 +41,6 @@ a {
 
 .navbar a {
     position: relative;
-    color: #030303;
     font-weight: 500;
     margin-left: 10px;
     margin-right: 10px;
@@ -73,17 +73,17 @@ button {
     font-size: 18px;
 }
 
-#inverse {
+.inverse {
     background-color: transparent;
     border-color: white;
 }
 
-#inverse:hover {
+.inverse:hover {
     background-color: white;
     color: rgb(109, 87, 255);
 }
 
-#menuButton {
+.menuButton {
     margin-left: 20px;
 }
 
@@ -96,45 +96,59 @@ section {
     padding-bottom: 80px;
 }
 
-#hero {
+.hero {
     text-align: center;
 }
 
-#about {
+.about {
+    display: flex;
     background-color: #ffffff;
 }
 
-#about img {
+.about img {
     object-fit: cover;
     height: 400px;
     width: 400px;
+    border-radius: 10%;
 }
 
-#testimonials {
+.info {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.profil {
+.container {
     display: flex;
+    justify-content: center;
     align-items: baseline;
-    width: 600px;
 }
 
-#profil {
-    padding-left: 25px;
-    margin-right: 25px;
+.profil {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 10%;
 }
 
-.profil img {
-    width: 300px;
-}
-
-#application {
+.application {
     text-align: center;
     background-color: rgb(109, 87, 255);
     color: #ffffff;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     background-color: #ffffff;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
 }
