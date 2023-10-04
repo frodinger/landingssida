@@ -19,7 +19,7 @@ section, footer, header {
 
 header {
     width: 100%;
-    background: white;
+    background: #ffffff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -52,24 +52,24 @@ a {
 
 button {
     padding: 10px 25px;
-    background-color: rgb(109, 87, 255);
+    background-color: #6d57ff;
     border: 2px transparent solid;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: white;
+    color: #ffffff;
     font-weight: 500;
     font-size: 18px;
 }
 
 .inverse {
     background-color: transparent;
-    border-color: white;
+    border-color: #ffffff;
 }
 
 .inverse:hover {
-    background-color: white;
-    color: rgb(109, 87, 255);
+    background-color: #ffffff;
+    color: #6d57ff;
 }
 
 .menuButton {
@@ -77,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(68, 46, 210);
+    background-color: #442ed2;
 }
 
 section {
@@ -86,8 +86,8 @@ section {
 }
 
 .hero {
-    background: linear-gradient(to top, rgba(135, 206, 250, 0.95), rgba(109, 87, 255, 0.9)), url(https://images.unsplash.com/photo-1526374870839-e155464bb9b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat top center;
-    color: white;
+    background: linear-gradient(to top, #87cefaf2, #6d57ffe6), url(https://images.unsplash.com/photo-1526374870839-e155464bb9b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat top center;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -166,7 +166,7 @@ section {
 .profil {
     margin: 10px;
     padding: 20px;
-    background-color: rgb(135, 206, 250);
+    background-color: #87cefa;
     border-radius: 10%;
 }
 
@@ -186,7 +186,7 @@ section {
 
 .application {
     text-align: center;
-    background-color: rgb(109, 87, 255);
+    background-color: #6d57ff;
     color: #ffffff;
     padding-top: 80px;
     padding-bottom: 60px;
