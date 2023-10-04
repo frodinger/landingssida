@@ -13,14 +13,20 @@ body {
 
 section, footer, header {
     padding: 10px 100px;
-    /* max-width: 1240px;
-    margin: auto; */
+}
+
+/* en klass för att innehållet inte ska komma för långt ut mot kanterna på större skärmar */
+.content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
 }
 
 header {
-    width: 100%;
     background: #ffffff;
-    display: flex;
+}
+
+header .content {
     justify-content: flex-end;
     align-items: center;
 }
@@ -88,13 +94,16 @@ section {
 .hero {
     background: linear-gradient(to top, #87cefaf2, #6d57ffe6), url(https://images.unsplash.com/photo-1526374870839-e155464bb9b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat top center;
     color: #ffffff;
-    display: flex;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.hero .content {
+    max-width: 1000px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 60px;
 }
 
 .hero h1 {
@@ -102,7 +111,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: 700;
-    max-width: 1000px;
+    
 }
 
 .hero p {
@@ -110,7 +119,6 @@ section {
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 50px;
-    max-width: 1000px;
 }
 
 .about {
@@ -145,8 +153,7 @@ section {
 
 }
 
-.testimonials {
-    display: flex;
+.testimonials .content {
     flex-direction: column;
     align-items: center;
 }
@@ -192,6 +199,10 @@ section {
     padding-bottom: 60px;
 }
 
+.application .content {
+    flex-direction: column;
+}
+
 .application h1 {
     text-transform: uppercase;
     font-size: 36px;
@@ -203,11 +214,13 @@ section {
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
     background-color: #ffffff;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+footer .content {
+    justify-content: space-between;
 }
 
 .footerLinks {
