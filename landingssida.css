@@ -86,12 +86,14 @@ section {
 }
 
 .hero {
+    background: linear-gradient(to top, rgba(135, 206, 250, 0.95), rgba(109, 87, 255, 0.9)), url(https://images.unsplash.com/photo-1526374870839-e155464bb9b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat top center;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 60px;
 }
 
@@ -105,6 +107,7 @@ section {
 
 .hero p {
     font-size: 20px;
+    font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 50px;
     max-width: 1000px;
@@ -163,7 +166,7 @@ section {
 .profil {
     margin: 10px;
     padding: 20px;
-    background-color: lightskyblue;
+    background-color: rgb(135, 206, 250);
     border-radius: 10%;
 }
 
